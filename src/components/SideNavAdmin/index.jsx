@@ -1,5 +1,5 @@
 import { SignOut } from "@phosphor-icons/react"
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/logo.svg'
 import { useUser} from '../../hooks/UserContext'
 import { Container, NavLink, NavLinkContainer, Footer } from "./styles"
 import { navLinks } from "../../components/SideNavAdmin/navLinks" 
