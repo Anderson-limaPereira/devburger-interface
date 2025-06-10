@@ -62,8 +62,7 @@ export function Login(){
         },
       );
       putUserData(userData)
-         
-         localStorage.setItem( 'devburger:userData',JSON.stringify(userData));
+         localStorage.setItem('devburger:userData', JSON.stringify(userData));
     };
 
     return (
